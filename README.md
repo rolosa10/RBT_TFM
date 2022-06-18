@@ -42,17 +42,17 @@ It contains under RGSClinic/No-Gravity folders three csv files:
 3. Exported_Synth_Dataset_Unity.csv: Dataset created synthetically to assess MediaPipe's performance. (PCK@0.5)
  
 
-### General notebooks
+#### General notebooks
 1. MP_2D_Analysis_Performance: Dataset that loads the "Exported_Synth_Dataset_Unity" to compute the PCK@0.5 metric and assess the performance for MediaPipe
 2. Quantitative_and_qualitative_results: As the name itself suggests, the qualitative and quantitative results for the feed-forward with residual connections architecture trained with noise lvl 1. 
 
-### Metrics
+#### Metrics
 Contains the two testing methods that have been used: The test set and the marker testing. 
 
 1. Test set: There are two folders, LSTM and Martinez, both containing the 2D ground-truth data for the test set. There's a notebook that allows computing the MPJPE metrics obtained. 
 2. Marker testing: The scripts and notebooks are provided for the camera calibration and the Marker testing itself for AzureSDK, MediaPipe3D, LSTM and Martinez. 
 
-### Solutions
+#### Solutions
 The trained models files, the notebooks for defining the architecture and train them and the Python scripts that run in the background when implemented into RGS are provided for the sequence-to-sequence and feed-forward with residual connection architectures. 
 
 
