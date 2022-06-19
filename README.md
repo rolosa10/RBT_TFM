@@ -22,7 +22,6 @@ Steps to reproduce the environment:
 
 #### GPU steps only
 Perform the steps from above and the following if you want to run the solutions in GPU: 
-RGSpipe CPU&GPU:
 
 1. Download the CUDA Toolkit 10.1 for Windows 10 from: https://developer.nvidia.com/cuda-10.1-download-archive-base?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exenetwork
 2. To process images through GPU it is still missing a DLL. From the following URL: https://developer.nvidia.com/rdp/cudnn-archive download the cuDNN Library foir Windows 10 named “Download cuDNN v7.6.5 (November 5th, 2019), for cuda 10.1. Uncompress the downloaded file and copy the cudnn64.7.dll in the bin folder inside the CUDA10.1 folder downloaded in the previous step.
@@ -55,7 +54,10 @@ Contains the two testing methods that have been used: The test set and the marke
 #### Solutions
 The trained models files, the notebooks for defining the architecture and train them and the Python scripts that run in the background when implemented into RGS are provided for the sequence-to-sequence and feed-forward with residual connection architectures. 
 
+#### Video of how synthetic data has been generated for data augmentation purposes
 
+
+![bloggif_62af4d8757775](https://user-images.githubusercontent.com/41288642/174490640-6e5ab782-dfa5-4a87-a339-6748f8d90c94.gif)
 
 
 
